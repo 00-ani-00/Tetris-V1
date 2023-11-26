@@ -7,7 +7,7 @@ pipeline{
     environment {
         SCANNER_HOME=tool 'sonar-scanner'
         GIT_REPO_NAME = "Tetris-manifest"
-        GIT_USER_NAME = "Aj7Ay" 
+        GIT_USER_NAME = "00-ani-00" 
     }
     stages {
         stage('clean workspace'){
